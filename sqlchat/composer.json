@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/untitled",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "egork"
+    }
+  ],
+  "require": {
+    "twig/twig": "^3.3"
+  }
+}

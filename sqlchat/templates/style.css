@@ -1,0 +1,41 @@
+body {
+    background: #c7b39b url(https://iptm-nntu.ru/wp-content/uploads/2017/12/TELEGRAMMMM.jpg) !important; /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+}
+
+#message_show {
+    margin: auto;
+    color: black;
+    width: 60%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:azure;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+#message_predict {
+    margin: auto;
+    color: black;
+    width: 60%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#message_push {
+    margin: auto;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    flex-direction: row;
+}
+
+.btn {
+    margin-left: 40px;
+}

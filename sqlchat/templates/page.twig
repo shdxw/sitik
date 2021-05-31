@@ -1,0 +1,11 @@
+{% extends "base.twig" %}
+{% block title %}Чат{% endblock %}
+{% block content %}
+    <div id="message_show">
+        {% for message in messages %}
+            <div class="messages">
+                <strong>{{message.login}}</strong>. "<em>{{message.text}}"</em> - {{message.time}}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
